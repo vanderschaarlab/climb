@@ -9,7 +9,7 @@ git clone https://github.com/vanderschaarlab/climb.git
 ```
 with:
 ```bash
-git clone https://github.com/DrShushen/climb-dc.git
+git clone -b climb-dc-canonical https://github.com/vanderschaarlab/climb.git
 ```
 
 ## 🚀 Usage: CliMB-DC
@@ -34,7 +34,7 @@ If you wish to use the extra tools provided in the `impl_agpl` directory, you mu
 
 ```bash
 # Clone the *CliMB-DC* repository.
-git clone https://github.com/DrShushen/climb-dc.git
+git clone -b climb-dc-canonical https://github.com/vanderschaarlab/climb.git
 cd climb
 # Install with the `[extra]` option.
 pip install -e climb[extra]
